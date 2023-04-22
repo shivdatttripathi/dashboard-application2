@@ -1,6 +1,6 @@
 const express = require('express')
 const app= express();
-require("dotenv").config();
+
 const cors = require('cors');
 const bodyParser = require('body-parser')
 const path =require('path')
@@ -18,7 +18,7 @@ app.use(express.json());
 
  const staticpath2 = path.join(__dirname,'./client/build/index.html')
  const staticpath = path.join(__dirname,'./client/build')
-
+ console.log(staticpath);
  app.use(express.static(staticpath))
 
  app.get('*',(req,res)=>{
