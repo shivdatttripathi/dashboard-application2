@@ -2,10 +2,11 @@
   "name": "dashboard-application-clint",
   "version": "1.0.0",
   "description": "this is clint side for dashboard internship assiment",
-  "main": "index.js",
+  "main": "app.js.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
+
   },
   "author": "Shivdatt Tripathi",
   "license": "ISC",
